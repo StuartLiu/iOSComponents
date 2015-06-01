@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BB6B4CC1B18839F00BC9264 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB6B4CB1B18839F00BC9264 /* main.m */; };
+		2BB6B4DA1B1BF9FD00BC9264 /* LConfigureEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB6B4D41B1883BD00BC9264 /* LConfigureEntity.m */; };
+		2BB6B4DB1B1BF9FD00BC9264 /* LNetworkConfigureParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB6B4D61B1883BD00BC9264 /* LNetworkConfigureParser.m */; };
+		2BB6B4DC1B1BF9FD00BC9264 /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB6B4D91B1883BD00BC9264 /* TBXML.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2BB6B4C61B18839F00BC9264 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2BB6B4C81B18839F00BC9264 /* NetworkConfigureParser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NetworkConfigureParser; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB6B4CB1B18839F00BC9264 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BB6B4D31B1883BD00BC9264 /* LConfigureEntity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LConfigureEntity.h; sourceTree = "<group>"; };
+		2BB6B4D41B1883BD00BC9264 /* LConfigureEntity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LConfigureEntity.m; sourceTree = "<group>"; };
+		2BB6B4D51B1883BD00BC9264 /* LNetworkConfigureParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNetworkConfigureParser.h; sourceTree = "<group>"; };
+		2BB6B4D61B1883BD00BC9264 /* LNetworkConfigureParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNetworkConfigureParser.m; sourceTree = "<group>"; };
+		2BB6B4D81B1883BD00BC9264 /* TBXML.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBXML.h; sourceTree = "<group>"; };
+		2BB6B4D91B1883BD00BC9264 /* TBXML.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBXML.m; sourceTree = "<group>"; };
+		2BB6B4DE1B1BFA5F00BC9264 /* LLogging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLogging.h; sourceTree = "<group>"; };
+		2BB6B4DF1B1BFA5F00BC9264 /* LLogging.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLogging.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BB6B4C51B18839F00BC9264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BB6B4BF1B18839F00BC9264 = {
+			isa = PBXGroup;
+			children = (
+				2BB6B4CA1B18839F00BC9264 /* NetworkConfigureParser */,
+				2BB6B4C91B18839F00BC9264 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BB6B4C91B18839F00BC9264 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BB6B4C81B18839F00BC9264 /* NetworkConfigureParser */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BB6B4CA1B18839F00BC9264 /* NetworkConfigureParser */ = {
+			isa = PBXGroup;
+			children = (
+				2BB6B4DD1B1BFA5F00BC9264 /* Logging */,
+				2BB6B4D21B1883BD00BC9264 /* config */,
+				2BB6B4D71B1883BD00BC9264 /* xml */,
+				2BB6B4CB1B18839F00BC9264 /* main.m */,
+			);
+			path = NetworkConfigureParser;
+			sourceTree = "<group>";
+		};
+		2BB6B4D21B1883BD00BC9264 /* config */ = {
+			isa = PBXGroup;
+			children = (
+				2BB6B4D31B1883BD00BC9264 /* LConfigureEntity.h */,
+				2BB6B4D41B1883BD00BC9264 /* LConfigureEntity.m */,
+				2BB6B4D51B1883BD00BC9264 /* LNetworkConfigureParser.h */,
+				2BB6B4D61B1883BD00BC9264 /* LNetworkConfigureParser.m */,
+			);
+			name = config;
+			path = ../../config;
+			sourceTree = "<group>";
+		};
+		2BB6B4D71B1883BD00BC9264 /* xml */ = {
+			isa = PBXGroup;
+			children = (
+				2BB6B4D81B1883BD00BC9264 /* TBXML.h */,
+				2BB6B4D91B1883BD00BC9264 /* TBXML.m */,
+			);
+			name = xml;
+			path = ../../xml;
+			sourceTree = "<group>";
+		};
+		2BB6B4DD1B1BFA5F00BC9264 /* Logging */ = {
+			isa = PBXGroup;
+			children = (
+				2BB6B4DE1B1BFA5F00BC9264 /* LLogging.h */,
+				2BB6B4DF1B1BFA5F00BC9264 /* LLogging.m */,
+			);
+			path = Logging;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BB6B4C71B18839F00BC9264 /* NetworkConfigureParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BB6B4CF1B18839F00BC9264 /* Build configuration list for PBXNativeTarget "NetworkConfigureParser" */;
+			buildPhases = (
+				2BB6B4C41B18839F00BC9264 /* Sources */,
+				2BB6B4C51B18839F00BC9264 /* Frameworks */,
+				2BB6B4C61B18839F00BC9264 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetworkConfigureParser;
+			productName = NetworkConfigureParser;
+			productReference = 2BB6B4C81B18839F00BC9264 /* NetworkConfigureParser */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BB6B4C01B18839F00BC9264 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Liu Stuart";
+				TargetAttributes = {
+					2BB6B4C71B18839F00BC9264 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 2BB6B4C31B18839F00BC9264 /* Build configuration list for PBXProject "NetworkConfigureParser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2BB6B4BF1B18839F00BC9264;
+			productRefGroup = 2BB6B4C91B18839F00BC9264 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BB6B4C71B18839F00BC9264 /* NetworkConfigureParser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BB6B4C41B18839F00BC9264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB6B4DA1B1BF9FD00BC9264 /* LConfigureEntity.m in Sources */,
+				2BB6B4DB1B1BF9FD00BC9264 /* LNetworkConfigureParser.m in Sources */,
+				2BB6B4DC1B1BF9FD00BC9264 /* TBXML.m in Sources */,
+				2BB6B4CC1B18839F00BC9264 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2BB6B4CD1B18839F00BC9264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2BB6B4CE1B18839F00BC9264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2BB6B4D01B18839F00BC9264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2BB6B4D11B18839F00BC9264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BB6B4C31B18839F00BC9264 /* Build configuration list for PBXProject "NetworkConfigureParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB6B4CD1B18839F00BC9264 /* Debug */,
+				2BB6B4CE1B18839F00BC9264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BB6B4CF1B18839F00BC9264 /* Build configuration list for PBXNativeTarget "NetworkConfigureParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB6B4D01B18839F00BC9264 /* Debug */,
+				2BB6B4D11B18839F00BC9264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BB6B4C01B18839F00BC9264 /* Project object */;
+}
